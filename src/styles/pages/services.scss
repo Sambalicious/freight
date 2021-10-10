@@ -1,0 +1,15 @@
+.service {
+  padding: 10px 40px;
+  margin-top: 20px;
+  background: #fff;
+  @media (max-width: 767px) {
+    padding: 10px 20px;
+  }
+  &__switch {
+    margin-bottom: 50px;
+    width: 50%;
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+  }
+}

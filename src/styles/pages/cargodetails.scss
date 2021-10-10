@@ -1,0 +1,23 @@
+.cargo {
+  padding: 10px 40px;
+  margin-top: 20px;
+  background: #fff;
+  @media (max-width: 767px) {
+    padding: 10px 20px;
+  }
+  &__flex {
+    display: flex;
+
+    justify-content: space-between;
+    @media (max-width: 767px) {
+      display: block;
+    }
+
+    &__auto {
+      @media (min-width: 800px) {
+        flex: 1 1 0px;
+        width: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.selection {
+  padding: 30px 40px;
+  margin-top: 20px;
+  background: #fff;
+
+  @media (max-width: 767px) {
+    padding: 10px 20px;
+  }
+  &__import {
+    display: flex;
+    padding: 10px 20px;
+    border: 1px solid #d4d5d8;
+    justify-content: space-between;
+    max-width: 200px;
+    gap: 20px;
+
+    & > div:first-of-type {
+      border-right: 1px solid #d4d5d8;
+      width: 50%;
+      padding: 0 15px;
+    }
+  }
+
+  &__flex {
+    @media (min-width: 767px) {
+      display: flex;
+    }
+
+    &__auto {
+      margin: 15px 0;
+      @media (min-width: 800px) {
+        flex: 1 1 0;
+        width: 0;
+      }
+    }
+  }
+
+  &__input {
+    margin: 15px 0;
+  }
+}

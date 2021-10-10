@@ -1,0 +1,17 @@
+.home {
+  &__other {
+    margin: 0 auto;
+    @media (min-width: 900px) {
+      max-width: 800px;
+    }
+  }
+
+  &__header {
+    // margin: 0 auto;
+
+    @media (min-width: 900px) {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+  }
+}
